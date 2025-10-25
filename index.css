@@ -1,0 +1,109 @@
+@font-face {
+    font-family:sevenseg;
+    src: url("Seve_Segment.ttf");
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-image: url("https://islavoyages.com/wp-content/uploads/2023/07/islavoyages-al-qods-mosquee-900x500.jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #18244d;
+    height: 450px;
+    
+    width: 790px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;      
+    height: 450px;
+    
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;      
+    height: 450px;
+    
+}
+.it1{
+    margin-top: 36px;
+    height: 55px;
+    width: 195px;
+    background-color: #18244d;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.it2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 195px;
+    background-color: black;
+    color: #fa506f;
+    font-size: 140px;
+    font-family: sevenseg;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.buttons{
+    margin-top: 18px;
+    height: 65px;
+    width: 195px;
+    background-color: #18244d;
+    text-align: center;
+    
+    
+}
+#btns{
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    background-color: #18244d;
+    border: 2px solid #8c9dba;
+    border-radius: 10px;
+    color: #8c9dba;
+    font-family: sevenseg;
+    font-size: 20px;
+    
+}
+#nbtn{
+    
+    width: 395px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    background-color: #18244d;
+    font-size: 30;
+    font-family: sevenseg;
+    color: #fa506f;
+}
+
+#btns:hover,#nbtn:hover {background-color: #3e8e41}
+
+#btns:active,#nbtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
