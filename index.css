@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     justify-content: start;
     background-image: url("https://islavoyages.com/wp-content/uploads/2023/07/islavoyages-al-qods-mosquee-900x500.jpg");
+    background-size: cover;
 }
 
 .container {
